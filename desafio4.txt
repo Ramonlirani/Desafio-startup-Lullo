@@ -1,0 +1,17 @@
+No programa que foi criado no desafio4.js
+
+Tem uma function Test4 que cria a variavel de estado "clicks" com valor inicial = 0 e tambem uma variavel de estado "pos", que guarda o valor de x e y do mouse ambos = 0 
+
+A constante data inicia-se com uma variavel como um array vazio
+
+Ja a function handleClick é a funcao que é responsavel pelo click, toda vez que alguem clicar, aumenta um contador "clicks" em + 1
+
+Ja o try catch foi inserido para quando o programa for rodar e tiver algum erro, se tiver, ele manda um aviso 
+
+function handleMouseMove basicamente altera o valor da variavel "pos" que é a posicao do mouse
+
+o useEffect linha 33, ele salva a posicao do click no array data, toda vez que o "clicks" atualizar e for pelo menos valor = 1
+
+useEffect linha 42, quando o componente carregar pela primeira vez, ele ira adicionar no window os eventos de click e mousemove e o return é basicamente para quando o componente for desrenderizado remove os eventos do window que foi criado anteriormente.
+
+O return linha 51 ele mostra em uma div a quantidade de click e a posicao atual do mouse do usuario.

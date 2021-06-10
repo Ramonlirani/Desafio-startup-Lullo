@@ -1,0 +1,26 @@
+.h1 {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-align: center;
+}
+
+.ul-main {
+    margin-left: 47%;
+    margin-right: 36%;
+}
+
+li {
+    color: black;
+    /*justify-content: center;*/
+}
+
+.text-item-main:hover {
+    color: rgb(3, 218, 39);
+    font-size: 18px;
+}
+
+.sub-item:hover {
+    color: rgb(0, 255, 221);
+    font-size: 18px;
+}

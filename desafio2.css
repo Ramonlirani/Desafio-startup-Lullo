@@ -1,0 +1,23 @@
+.h2 {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-align: center;
+}
+
+.div-main {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+
+    border-style: solid;
+    border-bottom-width: 2px;
+    border-color: white;
+}
+
+.sub-div {
+
+    border: 1px solid black;
+    /*border-color:  rgba(255, 255, 255, 0.055);*/
+    width: 100%;
+}
